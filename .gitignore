@@ -1,0 +1,4 @@
+.secret
+.infura_key
+build/contracts
+node_modules

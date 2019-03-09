@@ -1,0 +1,27 @@
+{
+  "name": "hackers-live-coin",
+  "version": "1.0.0",
+  "description": "Hackers' Live Coin (ERC20)",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hackers-live/hackers-live-coin.git"
+  },
+  "keywords": [
+    "blockchain",
+    "ethereum",
+    "erc20",
+    "cryptocurrency"
+  ],
+  "author": "Shun (shunsuke.hondo@gmail.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hackers-live/hackers-live-coin/issues"
+  },
+  "homepage": "https://github.com/hackers-live/hackers-live-coin#readme",
+  "dependencies": {
+    "openzeppelin-solidity": "git+https://github.com/shunsukehondo/openzeppelin-solidity.git",
+    "truffle-hdwallet-provider": "^1.0.5"
+  }
+}

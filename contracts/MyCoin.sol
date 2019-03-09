@@ -4,7 +4,7 @@ import "openzeppelin-solidity/contracts/token/ERC20/ERC20Capped.sol";
 
 
 // 10 billion
-contract HackersLiveCoin is ERC20Capped(10000000000 ether) {
+contract MyCoin is ERC20Capped(10000000000 ether) {
     string public name = "Hackers Live Coin";
     string public symbol = "HCL";
     uint8 public decimals = 18;

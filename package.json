@@ -1,12 +1,16 @@
 {
-  "name": "hackers-live-coin",
+  "name": "erc20-token-template",
   "version": "1.0.0",
-  "description": "Hackers' Live Coin (ERC20)",
+  "description": "ERC20 token template truffle project",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "reset": "rm build/contracts/*",
+    "export-abi": "node scripts/export-abi.js",
+    "export-bytecode": "node scripts/export-bytecode.js"
+  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hackers-live/hackers-live-coin.git"
+    "url": "git+https://github.com/hackers-live/erc20-token-template.git"
   },
   "keywords": [
     "blockchain",
@@ -17,11 +21,11 @@
   "author": "Shun (shunsuke.hondo@gmail.com)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/hackers-live/hackers-live-coin/issues"
+    "url": "https://github.com/hackers-live/erc20-token-template/issues"
   },
-  "homepage": "https://github.com/hackers-live/hackers-live-coin#readme",
+  "homepage": "https://github.com/hackers-live/erc20-token-template#readme",
   "dependencies": {
-    "openzeppelin-solidity": "git+https://github.com/shunsukehondo/openzeppelin-solidity.git",
+    "openzeppelin-solidity": "git+https://github.com/hackers-live/openzeppelin-solidity.git",
     "truffle-hdwallet-provider": "^1.0.5"
   }
 }
